@@ -1,2 +1,8 @@
 # fruit-store-serve
- Server for APi conextion with fruite-store
+ Server for connection with APi fruit-store
+
+#Steps
+* npm install
+* node index.js
+
+
