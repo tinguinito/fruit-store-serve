@@ -15,8 +15,8 @@ app.use(cors())
 
 
 // info => https://medium.com/@mmajdanski/express-body-parser-and-why-may-not-need-it-335803cd048c
+//espress.json() for get body from request in json format
 app.use(express.json());
-app.use(express.urlencoded())
 
 app.get('/', (req, res) => {
     res.send('Hello to Api Fruit Store!')
